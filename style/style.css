@@ -1,5 +1,28 @@
 @charset "UTF-8";
-@import url("style/header.css");
+@import url("/style/header.css");
+@import url("/style/banner.css");
+
 :root{
     --cor-fundo: #EBECEE;
+    --cor-cabecalho: #FFFFFF;
+    --cor-laranja:#eb9b00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --font-Poppings: 'Poppins', sans-serif;
 }
+
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0.3em 0.6em;
+}
+
+body{
+    background: var(--cor-fundo);
+    font-family: var(--font-Poppings);
+}
+
+
+
