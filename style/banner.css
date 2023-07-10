@@ -16,5 +16,25 @@
 .banner__texto{
     font-weight: 500;
     margin: 1em 0;
+}
 
+.banner__pesquisa{
+    background: transparent;
+    border-radius: 24px;
+    border: 1px solid var(--cor-cabecalho);
+    padding: 0.62em 1.5em;
+    margin-top: 1em;
+    width: 100%;
+    color: var(--cor-cabecalho);
+    text-align: center;
+}
+
+.banner__pesquisa::placeholder{
+    font-family: var(--font-Poppings);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--cor-cabecalho);
+    background: url(../img/Pesquisa.svg);
+    background-repeat: no-repeat;
+    background-position: 1em;
 }

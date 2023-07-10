@@ -41,6 +41,11 @@ body, p, h1, h2, h3{
     width: 60vw;
 }
 
+.linta-menu__item:hover{
+    background-color: #eb9b00;
+    color: var(--cor-cabecalho);
+    font-weight: 700;
+}
 .container__botao:checked ~ .lista-menu{
     display: block;
 }
@@ -49,6 +54,7 @@ body, p, h1, h2, h3{
 .linta-menu__item{
     padding: 1em;
     background-color: var(--cor-cabecalho);
+    transition: 0.3s all ease-in-out;
 }
 
 
