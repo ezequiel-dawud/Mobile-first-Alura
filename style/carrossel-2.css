@@ -1,0 +1,12 @@
+.descricao__estrela{
+    display: flex;
+}
+
+.material-symbols-outlined{
+    color: var(--cor-laranja);
+    margin-bottom: 0.5em;
+}
+
+.descricao{
+    padding-right: 1em;
+}

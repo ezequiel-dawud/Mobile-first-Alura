@@ -29,6 +29,7 @@
 .card__botoes{
     display: flex;
     justify-content: space-between;
+
 }
 
 .card__descricao{
@@ -40,6 +41,8 @@
 
 .botoes{
     display: flex;
+    justify-content: left;
+    margin-right: 1em;
 }
 
 .card{
