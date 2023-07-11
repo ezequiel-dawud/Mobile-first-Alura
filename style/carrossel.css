@@ -26,9 +26,16 @@
     margin: 0.5em 0;
 }
 
-.card__descricao, .card__botoes{
+.card__botoes{
     display: flex;
     justify-content: space-between;
+}
+
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .botoes{
@@ -50,4 +57,24 @@
 
 .descricao__titulo-livro{
     color: var(--cor-azul);
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin: 0.5em 0;
+}
+
+.descricao__texto{
+    font-size: 0.875rem;
+}
+
+.botoes__item{
+    margin: 1em 0.5em 0em 0.5em;
+}
+
+.botoes__ancora{
+    background: var(--cor-laranja);
+    padding: 1em 2.2em;
+    text-decoration: none;
+    color: var(--cor-cabecalho);
+    font-weight: 700;
+    margin-top: 1em;
 }
