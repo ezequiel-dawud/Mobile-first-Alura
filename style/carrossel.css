@@ -102,7 +102,52 @@
 
     .card{
         width: 40%;
-
         margin:  2em auto;
     }
+}
+
+@media screen and (min-width: 1728px){
+   .carrossel__container{
+    display: flex;
+    margin: 0 10vw 3em 10vw;
+    align-items: center;
+    padding: 3em 0;
+
+   }
+
+   .swiper-slide > img{
+    max-height: 252px;
+   }
+
+   .swiper-pagination{
+    margin: 1em 0;
+   }
+
+   .swiper-slide{
+     margin: 0 0.5em;
+     height: 30%;
+     
+   }
+
+   .swiper{
+    width: 60%;
+   }
+
+   .descricao__titulo{
+        font-size: 1.5rem;
+   }
+
+   .descricao__texto{
+    font-size: 1rem;
+   }
+
+   .descricao{
+    margin-right: 2em;
+   }
+
+   .card{
+    width: 60%;
+    margin-left: 3em;
+    transform: translateY(10%);
+   }
 }
