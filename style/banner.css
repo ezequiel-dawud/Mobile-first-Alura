@@ -49,8 +49,6 @@
     }
 
     .banner__pesquisa::placeholder{
-        background-position: 8em;
+        background-position: 6em;
     }
-
-
 }
